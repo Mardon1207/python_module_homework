@@ -11,3 +11,9 @@ def calculate_factorial(number):
     Returns:
         int: The factorial of the given number.
     """
+    s=1
+    while number>0:
+        s=s*number
+        number-=1
+    return s
+print(calculate_factorial(12))
