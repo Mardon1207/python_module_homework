@@ -1,5 +1,5 @@
 # Calculate the exponential value of a number
-import math
+from math import exp
 
 def calculate_exponential(number):
     """
@@ -11,3 +11,6 @@ def calculate_exponential(number):
     Returns:
         float: The exponential value of the number.
     """
+    x=exp(number)
+    return x
+print(calculate_exponential(2))
