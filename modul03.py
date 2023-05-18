@@ -1,5 +1,5 @@
 # Perform trigonometric calculations
-import math
+from math import sin,cos,tan,degrees,radians
 
 def perform_trigonometric_calculations(angle):
     """
@@ -11,3 +11,6 @@ def perform_trigonometric_calculations(angle):
     Returns:
         tuple: A tuple containing the sine, cosine, and tangent of the angle.
     """
+    t=(sin(angle),cos(angle),tan(angle))
+    return t
+print(perform_trigonometric_calculations(radians(90)))
