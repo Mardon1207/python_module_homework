@@ -1,5 +1,5 @@
 # Calculate the logarithm of a number
-import math
+from math import log
 
 def calculate_logarithm(number, base):
     """
@@ -12,3 +12,6 @@ def calculate_logarithm(number, base):
     Returns:
         float: The logarithm of the number to the specified base.
     """
+    x=log(number,base)
+    return x
+print(calculate_logarithm(8,2))
