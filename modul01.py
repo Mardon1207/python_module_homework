@@ -1,5 +1,5 @@
 # Calculate the ceiling and floor values of a number
-import math
+from math import floor,ceil
 
 def calculate_ceiling_floor(number):
     """
@@ -11,3 +11,6 @@ def calculate_ceiling_floor(number):
     Returns:
         tuple: A tuple containing the ceiling and floor values of the number.
     """
+    t=(ceil(number),floor(number))
+    return t
+print(calculate_ceiling_floor(4.6))
