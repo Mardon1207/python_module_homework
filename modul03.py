@@ -13,4 +13,4 @@ def perform_trigonometric_calculations(angle):
     """
     t=(sin(angle),cos(angle),tan(angle))
     return t
-print(perform_trigonometric_calculations(radians(90)))
+print(perform_trigonometric_calculations(radians(45)))
